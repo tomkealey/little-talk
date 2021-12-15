@@ -1,10 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+  const [key, setKey] = useState(null);
   const [category, setCategory] = useState('Press the spacebar');
   const [colour, setColour] = useState();
-  
+
+  function handleKeyDown(event) {
+    if(event.code === 'Space') {
+      //console.log('Hit spacebar');
+      setKey(event.code);
+      pickCard();
+    }
+  }
+
+  useEffect(function() {
+    // add event listener
+    document.addEventListener('keydown', handleKeyDown);
+  })
+
   const cards = {
     categories: ['Life', 'Random','Deep', 'Experiences', 'If you could...', 'Would you rather...'],
     colours: ['#E0E0E0', '#F5F500', '#FF1F1F', '#009DFF', '#21A300', '#6F5F81']
@@ -21,10 +35,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <p>{category} {colour}</p>
-          <button onClick={() => pickCard()}>
-              Click me
-          </button>
+        <p>{category}</p>
       </header>
     </div>
   );
