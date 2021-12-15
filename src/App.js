@@ -11,7 +11,7 @@ function App() {
   }
 
   // pick a random card 
-  const getCard = () => {
+  const pickCard = () => {
     const id = Math.floor(Math.random()*6); 
 
     setCategory(cards.categories[id]);
@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <header className="App-header">
           <p>{category} {colour}</p>
-          <button onClick={() => getCard()}>
+          <button onClick={() => pickCard()}>
               Click me
           </button>
       </header>
