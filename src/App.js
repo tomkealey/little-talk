@@ -32,8 +32,8 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <p>{category} {colour}</p>
+      <header className="App-header" style={{ backgroundColor: `${colour}` }}>
+        <p>{category}</p>
       </header>
     </div>
   );
