@@ -1,15 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
-  const [key, setKey] = useState(null);
   const [category, setCategory] = useState('Press the spacebar');
   const [colour, setColour] = useState();
 
   function handleKeyDown(event) {
     if(event.code === 'Space') {
       //console.log('Hit spacebar');
-      setKey(event.code);
       pickCard();
     }
   }
@@ -35,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>{category}</p>
+        <p>{category} {colour}</p>
       </header>
     </div>
   );
