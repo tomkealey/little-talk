@@ -7,15 +7,15 @@ function App() {
 
   function handleKeyDown(event) {
     if(event.code === 'Space') {
-      //console.log('Hit spacebar');
       pickCard();
     }
   }
-
-  useEffect(function() {
-    // add event listener
+  useEffect(() => {
     document.addEventListener('keydown', handleKeyDown);
-  })
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  });
 
   const cards = {
     categories: ['Life', 'Random','Deep', 'Experiences', 'If you could...', 'Would you rather...'],
