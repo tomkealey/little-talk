@@ -1,8 +1,6 @@
 # Icebreaker
 
-/assets/images/electrocat.png
-
-![i](./assets/images/bestself-icebreaker-deck.ond)
+![i](./assets/images/bestself-icebreaker-deck.png)
 
 A deck of 150 conversation prompts that spark meaningful discussions and strengthen relationships. With the Icebreaker Deck, you’ll:
 
