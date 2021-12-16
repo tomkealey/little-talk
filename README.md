@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Icebreaker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+/assets/images/electrocat.png
+
+![i](./assets/images/bestself-icebreaker-deck.ond)
+
+A deck of 150 conversation prompts that spark meaningful discussions and strengthen relationships. With the Icebreaker Deck, you’ll:
+
+• Move beyond small talk
+• Break down barriers, cultivate connections, and cultivate openness and vulnerability
+• Get to know people better across 6 categories: life, random, deep, experience, if you could…, and would you rather...
+
+Perfect to use with friends, coworkers, family, and strangers. Select a card and start sharing.
+Available for purchase [here](https://bestself.co/products/icebreaker-deck).
+
+## Motivation
+
+If, like me, you sometimes struggle to pick a category then this little random category generator build in React has got you covered. It’s super simple. Hit up the site, Press the spacebar and lean in. Live Demo [https://pickacard.netlify.app/](https://pickacard.netlify.app/).
 
 ## Available Scripts
 
