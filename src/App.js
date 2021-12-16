@@ -18,13 +18,6 @@ function App() {
     };
   });
 
-  useEffect(() => {
-    document.addEventListener('touchstart', handleKeyDown);
-    return () => {
-      document.removeEventListener('touchstart', handleKeyDown);
-    };
-  });
-
   const cards = {
     categories: ['Life', 'Random','Deep', 'Experiences', 'If you could...', 'Would you rather...'],
     colours: ['#E0E0E0', '#F5F500', '#FF1F1F', '#009DFF', '#21A300', '#6F5F81']
