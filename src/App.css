@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   font-family: 'Gotham Light', sans-serif; 
-  font-size: calc(10px + 6vmin);
+  font-size: calc(10px + 4vmin);
   color: white;
 }
+ 
