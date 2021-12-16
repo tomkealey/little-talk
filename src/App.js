@@ -10,10 +10,18 @@ function App() {
       pickCard();
     }
   }
+
   useEffect(() => {
     document.addEventListener('keydown', handleKeyDown);
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
+    };
+  });
+
+  useEffect(() => {
+    document.addEventListener('touchstart', handleKeyDown);
+    return () => {
+      document.removeEventListener('touchstart', handleKeyDown);
     };
   });
 
