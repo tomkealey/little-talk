@@ -15,7 +15,9 @@ Available for purchase [here](https://bestself.co/products/icebreaker-deck).
 
 ## Motivation
 
-If, like me, you sometimes struggle to pick a category then this little random category generator build in React has got you covered. It’s super simple. Hit up the site, Press the spacebar and lean in. Check it out [demo](https://pickacard.netlify.app/).
+If, like me, you sometimes struggle to pick a category then this little random category generator build in React has got you covered. It’s super simple. Hit up the site, Press the spacebar and lean in. 
+
+The app is running [here](https://pickacard.netlify.app/). Check it out the for youself. Enjoy!
 
 ![icebreaker-pick-a-card](./assets/images/icebreaker-pick-a-card.gif)
 
@@ -27,6 +29,8 @@ If, like me, you sometimes struggle to pick a category then this little random c
 ![Deep](./assets/images/deep.png)
 ![If you could...](./assets/images/if-you-could.png)
 ![Would you rather...](./assets/images/would-you-rather.png)
+
+---
 
 ## Available Scripts
 
