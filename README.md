@@ -1,6 +1,8 @@
-## Icebreaker
+<p align="center">
+  <img width="471" height="390" src="./assets/images/bestself-icebreaker-deck.png">
+</p>
 
-![icebreaker from BestSelf](./assets/images/bestself-icebreaker-deck.png)
+## Icebreaker
 
 A deck of 150 conversation prompts that spark meaningful discussions and strengthen relationships. With the Icebreaker Deck, you’ll:
 
