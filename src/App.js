@@ -10,11 +10,29 @@ function App() {
     colours: ['#E0E0E0', '#F5F500', '#FF1F1F', '#009DFF', '#21A300', '#6F5F81']
   }
 
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  });
+
+  useEffect(() => {
+    document.addEventListener('touchstart', handleTocuhStart);
+    return () => {
+      document.removeEventListener('touchstart', handleTocuhStart);
+    };
+  });
+
+  function getRandomNumber() {
+    return Math.floor(Math.random()*6)
+  }
+
   function handleKeyDown(event) {
     switch(event.code) {
       case 'Space':
         // pick a random card
-        pickCard(Math.floor(Math.random()*6));
+        pickCard(getRandomNumber());
         break;
       case 'KeyL': case 'Digit0':
         // Life  
@@ -45,12 +63,9 @@ function App() {
     }
   }
 
-  useEffect(() => {
-    document.addEventListener('keydown', handleKeyDown);
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  });
+  function handleTocuhStart(event) {
+    pickCard(getRandomNumber())  
+  }
 
   // pick a card 
   const pickCard = (x) => {
