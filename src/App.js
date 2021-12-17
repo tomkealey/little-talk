@@ -25,7 +25,7 @@ function App() {
   });
 
   function getRandomNumber() {
-    return Math.floor(Math.random()*6)
+    return Math.floor(Math.random()*6);
   }
 
   function handleKeyDown(event) {
@@ -64,7 +64,7 @@ function App() {
   }
 
   function handleTocuhStart(event) {
-    pickCard(getRandomNumber())  
+    pickCard(getRandomNumber());  
   }
 
   // pick a card 
