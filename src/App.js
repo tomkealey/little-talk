@@ -16,22 +16,28 @@ function App() {
         // pick a random card
         pickCard(Math.floor(Math.random()*6));
         break;
-      case 'KeyL': case 'Digit0':  
+      case 'KeyL': case 'Digit0':
+        // Life  
         pickCard(0);
         break;
-      case 'KeyR': case 'Digit1':  
+      case 'KeyR': case 'Digit1':
+        // Random  
         pickCard(1);
         break;
-      case 'KeyD': case 'Digit2':  
+      case 'KeyD': case 'Digit2':
+        // Deep  
         pickCard(2);
         break;
-      case 'KeyE': case 'Digit3':  
+      case 'KeyE': case 'Digit3':
+        // Experience  
         pickCard(3);
         break;
-      case 'KeyI': case 'Digit4':  
+      case 'KeyI': case 'Digit4':
+        // If you could...
         pickCard(4);
         break;
       case 'KeyW': case 'Digit5':  
+        // Would you rather...
         pickCard(5);
         break;
       default:
