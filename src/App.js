@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   const [category, setCategory] = useState('Press the spacebar');
   const [colour, setColour] = useState();
+  const [contrast, setContrast] = useState();
 
   const cards = {
     categories: ['Life', 'Random','Deep', 'Experiences', 'If you could...', 'Would you rather...'],
@@ -67,15 +68,35 @@ function App() {
     pickCard(getRandomNumber());  
   }
 
+  function getContrastYIQ(hexcolor){
+    // If a leading # is provided, remove it
+    if (hexcolor.slice(0, 1) === '#') {
+      hexcolor = hexcolor.slice(1);
+    }
+
+    // Convert to RGB value
+    var r = parseInt(hexcolor.substr(0,2),16);
+    var g = parseInt(hexcolor.substr(2,2),16);
+    var b = parseInt(hexcolor.substr(4,2),16);
+
+    // Get YIQ ratio
+    var yiq = ((r*299)+(g*587)+(b*114))/1000;
+
+    // Check contrast
+    return (yiq >= 128) ? 'black' : 'white';
+  }
+
   // pick a card 
   const pickCard = (x) => {
     setCategory(cards.categories[x]);
     setColour(cards.colours[x]);
+    //contrast text colour against card color background
+    setContrast(getContrastYIQ(cards.colours[x]));
   }
 
   return (
     <div className="App">
-      <header className="App-header" style={{ backgroundColor: `${colour}` }}>
+      <header className="App-header" style={{ backgroundColor: `${colour}`, color: `${contrast}` }}>
         <p>{category}</p>
       </header>
     </div>
