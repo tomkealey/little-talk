@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getContrastYIQ } from './utils/Helper';
+import { getRandomNumber, getContrastYIQ } from './utils/Helper';
 import './App.css';
 
 function App() {
@@ -25,10 +25,6 @@ function App() {
       document.removeEventListener('touchstart', handleTocuhStart);
     };
   });
-
-  function getRandomNumber() {
-    return Math.floor(Math.random()*6);
-  }
 
   function handleKeyDown(event) {
     switch(event.code) {

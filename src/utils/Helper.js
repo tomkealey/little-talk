@@ -1,11 +1,16 @@
+// Get random number between 0 and 5
+export function getRandomNumber() {
+  return Math.floor(Math.random()*6);
+}
 
 /*!
-* Get the contrasting color for any hex color
 * (c) 2019 Chris Ferdinandi, MIT License, https://gomakethings.com
 * Derived from work by Brian Suda, https://24ways.org/2010/calculating-color-contrast/
 * @param  {String} A hexcolor value
 * @return {String} The contrasting color (black or white)
 */
+
+// Get the contrasting color for any hex color
 export function getContrastYIQ(hexcolor){
   // If a leading # is provided, remove it
   if (hexcolor.slice(0, 1) === '#') {
