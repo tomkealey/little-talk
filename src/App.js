@@ -62,7 +62,7 @@ function App() {
   }
 
   function handleTocuhStart(event) {
-    pickCard(getRandomNumber());  
+    pickCard(getRandomNumber()); 
   }
 
   // pick a card 
