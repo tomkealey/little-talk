@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="471" height="390" src="./assets/images/bestself-icebreaker-deck.png">
+  <img width="471" height="390" src="./assets/images/bestself-littletalk-deck.jpeg>
 </p>
 
 ## Icebreaker
@@ -7,11 +7,14 @@
 A deck of 150 conversation prompts that spark meaningful discussions and strengthen relationships. With the Little Talk Deck, you’ll:
 
 - Move beyond small talk
+- Encourage self-expression
+- Inspire personal development
+- Cultivate self-acceptance and self-truth
 - Break down barriers, cultivate connections, and cultivate openness and vulnerability
 - Get to know people better across 6 categories: hopes & wishes, random, self-expression, reflection, likes & dislikes, and emotional intelligence
 
 Perfect to use with friends, coworkers, family, and strangers. Select a card and start sharing.
-Available for purchase [here](https://bestself.co/products/icebreaker-deck).
+Available for purchase [here](https://bestself.co/products/little-talk-deck).
 
 ## Motivation
 
@@ -19,11 +22,11 @@ If, like me, you sometimes struggle to pick a category then this little random c
 
 The app is running [here](https://cards-littletalk.netlify.app/). Check it out the for youself. Enjoy!
 
-![littletalk-pick-a-card](./assets/images/icebreaker-pick-a-card.gif)
+![little-talk-pick-a-card](./assets/images/icebreaker-pick-a-card.gif)
 
 ## Card Categories
 ![Press the spacebar](./assets/images/press-the-spacebar.png)
-![Hoeps & Wishes](./assets/images/experiences.png)
+![Hopes & Wishes](./assets/images/experiences.png)
 ![Random](./assets/images/random.png)
 ![Self-Expression](./assets/images/self-expression.png)
 ![Reflection](./assets/images/reflection.png)
