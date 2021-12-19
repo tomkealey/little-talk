@@ -9,13 +9,6 @@ test('renders press space bar', () => {
 });
 
 // card picker by keyboard
-test('pick Life', () => {
-  render(<App />);
-  fireEvent.keyDown(document, {key: 'L', code: 'KeyL'})
-  const linkElement = screen.getByText(/Life/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
 test('pick Random', () => {
   render(<App />);
   fireEvent.keyDown(document, {key: 'R', code: 'KeyR'})
@@ -23,30 +16,37 @@ test('pick Random', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('pick Deep', () => {
+test('pick Hopes & Dreams', () => {
   render(<App />);
-  fireEvent.keyDown(document, {key: 'D', code: 'KeyD'})
-  const linkElement = screen.getByText(/Deep/i);
+  fireEvent.keyDown(document, {key: 'H', code: 'KeyH'})
+  const linkElement = screen.getByText(/Hopes & Dreams/i);
   expect(linkElement).toBeInTheDocument();
 });
 
-test('pick Experiences', () => {
+test('pick Self-Expression', () => {
+  render(<App />);
+  fireEvent.keyDown(document, {key: 'S', code: 'KeyS'})
+  const linkElement = screen.getByText(/Self-Expression/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('pick Reflection', () => {
+  render(<App />);
+  fireEvent.keyDown(document, {key: 'X', code: 'KeyX'})
+  const linkElement = screen.getByText(/Reflection/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('pick Likes and Dislikes', () => {
+  render(<App />);
+  fireEvent.keyDown(document, {key: 'L', code: 'KeyL'})
+  const linkElement = screen.getByText(/Likes & Dislikes/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+test('pick Emotional Intelligence', () => {
   render(<App />);
   fireEvent.keyDown(document, {key: 'E', code: 'KeyE'})
-  const linkElement = screen.getByText(/Experiences/i);
-  expect(linkElement).toBeInTheDocument();
-});
-
-test('pick If you could...', () => {
-  render(<App />);
-  fireEvent.keyDown(document, {key: 'I', code: 'KeyI'})
-  const linkElement = screen.getByText(/If you could.../i);
-  expect(linkElement).toBeInTheDocument();
-});
-
-test('pick Would you rather...', () => {
-  render(<App />);
-  fireEvent.keyDown(document, {key: 'W', code: 'KeyW'})
-  const linkElement = screen.getByText(/Would you rather.../i);
+  const linkElement = screen.getByText(/Emotional Intelligence/i);
   expect(linkElement).toBeInTheDocument();
 });

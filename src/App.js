@@ -8,7 +8,7 @@ function App() {
   const [contrast, setContrast] = useState();
 
   const cards = {
-    categories: ['Life', 'Random','Deep', 'Experiences', 'If you could...', 'Would you rather...'],
+    categories: ['Random', 'Hopes & Dreams','Self-Expression', 'Reflection', 'Likes & Dislikes', 'Emotional Intelligence'],
     colours: ['#E0E0E0', '#F5F500', '#FF1F1F', '#009DFF', '#21A300', '#6F5F81']
   }
 
@@ -32,28 +32,28 @@ function App() {
         // pick a random card
         pickCard(getRandomNumber());
         break;
-      case 'KeyL': case 'Digit0':
-        // Life  
+      case 'KeyR': case 'Digit0':
+        // Random  
         pickCard(0);
         break;
-      case 'KeyR': case 'Digit1':
-        // Random  
+      case 'KeyH': case 'Digit1':
+        // Hopes & Dreams  
         pickCard(1);
         break;
-      case 'KeyD': case 'Digit2':
-        // Deep  
+      case 'KeyS': case 'Digit2':
+        // Self-Expression  
         pickCard(2);
         break;
-      case 'KeyE': case 'Digit3':
-        // Experience  
+      case 'KeyX': case 'Digit3':
+        // Reflection  
         pickCard(3);
         break;
-      case 'KeyI': case 'Digit4':
-        // If you could...
+      case 'KeyL': case 'Digit4':
+        // Likes & Dislikes
         pickCard(4);
         break;
-      case 'KeyW': case 'Digit5':  
-        // Would you rather...
+      case 'KeyE': case 'Digit5':  
+        // Emotional Intelligence
         pickCard(5);
         break;
       default:
