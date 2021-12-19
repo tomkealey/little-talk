@@ -1,8 +1,8 @@
 <p align="center">
-  <img width="471" height="390" src="./assets/images/best-self-littletalk-deck.png>
+  <img width="471" height="390" src="./assets/images/best-self-littletalk-deck.png">
 </p>
 
-## Icebreaker
+## Little Talk
 
 A deck of 150 conversation prompts that spark meaningful discussions and strengthen relationships. With the Little Talk Deck, you’ll:
 
