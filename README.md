@@ -26,7 +26,7 @@ The app is running [here](https://cards-littletalk.netlify.app/). Check it out t
 
 ## Card Categories
 ![Press the spacebar](./assets/images/press-the-spacebar.png)
-![Hopes & Wishes](./assets/images/experiences.png)
+![Hopes & Wishes](./assets/images/hopes-and-wishes.png)
 ![Random](./assets/images/random.png)
 ![Self-Expression](./assets/images/self-expression.png)
 ![Reflection](./assets/images/reflection.png)
