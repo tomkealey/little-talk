@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="471" height="390" src="./assets/images/bestself-littletalk-deck.jpeg>
+  <img width="471" height="390" src="./assets/images/bestself-littletalk-deck.png>
 </p>
 
 ## Icebreaker
