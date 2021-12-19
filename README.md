@@ -11,7 +11,7 @@ A deck of 150 conversation prompts that spark meaningful discussions and strengt
 - Inspire personal development
 - Cultivate self-acceptance and self-truth
 - Break down barriers, cultivate connections, and cultivate openness and vulnerability
-- Get to know people better across 6 categories: hopes & wishes, random, self-expression, reflection, likes & dislikes, and emotional intelligence
+- Get to know people better across 6 categories: hopes & dreams, random, self-expression, reflection, likes & dislikes, and emotional intelligence
 
 Perfect to use with friends, coworkers, family, and strangers. Select a card and start sharing.
 Available for purchase [here](https://bestself.co/products/little-talk-deck).
@@ -26,7 +26,7 @@ The app is running [here](https://cards-littletalk.netlify.app/). Check it out t
 
 ## Card Categories
 ![Press the spacebar](./assets/images/press-the-spacebar.png)
-![Hopes & Wishes](./assets/images/hopes-and-wishes.png)
+![Hopes & Dreams](./assets/images/hopes-and-dreams.png)
 ![Random](./assets/images/random.png)
 ![Self-Expression](./assets/images/self-expression.png)
 ![Reflection](./assets/images/reflection.png)
