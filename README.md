@@ -22,7 +22,7 @@ If, like me, you sometimes struggle to pick a category then this little random c
 
 The app is running [here](https://cards-littletalk.netlify.app/). Check it out the for youself. Enjoy!
 
-![little-talk-pick-a-card](./assets/images/icebreaker-pick-a-card.gif)
+![little-talk-pick-a-card](./assets/images/littletalk-pick-a-card.gif)
 
 ## Card Categories
 ![Press the spacebar](./assets/images/press-the-spacebar.png)
