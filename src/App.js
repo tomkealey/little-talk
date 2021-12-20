@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
   const [category, setCategory] = useState('Press the spacebar');
+  const [show, setShow] = useState(true);
   const [colour, setColour] = useState();
   const [contrast, setContrast] = useState();
 
@@ -67,6 +68,7 @@ function App() {
 
   // pick a card 
   const pickCard = (x) => {
+    setShow(false);
     setCategory(cards.categories[x]);
     setColour(cards.colours[x]);
     //contrast text colour against card color background
@@ -77,6 +79,7 @@ function App() {
     <div className="App">
       <header className="App-header" style={{ backgroundColor: `${colour}`, color: `${contrast}` }}>
         <p>{category}</p>
+        <p className="App-cards">{show && cards.categories.join(' | ')}</p>
       </header>
     </div>
   );

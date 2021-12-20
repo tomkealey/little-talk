@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url("https://fonts.cdnfonts.com/css/gotham");
 
 .App {
   text-align: center;
@@ -11,8 +11,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Gotham Light', sans-serif; 
+  font-family: "Gotham Light", sans-serif;
   font-size: calc(10px + 4vmin);
   color: white;
 }
- 
+
+.App-cards {
+  font-size: calc(6px + 1vmin);
+  color: #474e5c;
+}
